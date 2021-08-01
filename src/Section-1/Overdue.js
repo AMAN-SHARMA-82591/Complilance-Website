@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Upload2() {
+function Overdue() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Upload2() {
     )
 }
 
-export default Upload2
+export default Overdue
