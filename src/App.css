@@ -1,0 +1,322 @@
+.App{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 75% 25%;
+    width:100%;
+    height:660px;
+}
+/*------------------------Section-1------------------------*/
+
+.section-1{
+
+}
+.week-table-container-items{
+    margin:0px auto;
+    background-color:#6572f5;
+    display:grid;
+    grid-template-columns: 8% 84% 8%;
+    width:80%;
+    height:100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    align-items:center;
+    padding:0px 30px;
+}
+.date-section{
+    width:50px;
+    height:50px;
+    display: flex;
+    text-align: center;
+    border-radius:70%;
+    align-items: center;
+    transition-duration: 0.5s;
+    transition-timing-function:ease ;
+    transition-property: background-color;
+}
+
+.date-logo-item{
+    color:white; 
+    padding:0px 0px 1px 7px;
+    position:relative;
+    z-index:1;   
+    cursor:pointer; 
+}
+.date-section:hover{
+    background-color:rgba(255, 255, 255, 0.226);
+}
+.calender-section{
+    transition:background 0.5s ease;
+    width:50px;
+    height:50px;
+    margin:-8px 0px 0px 10px;
+    border-radius:10px;
+}
+.calender-section:hover{
+    background:rgba(255, 255, 255, 0.226)
+}
+
+.calender-logo-item{
+    color:white;
+    margin-top:7px;
+    margin-left:8px;
+    cursor:pointer;
+}
+
+.week-section{
+    display:flex;
+    justify-content: space-between;
+}
+.week-section .week-items{
+    color:white;
+    margin:0px 15px;
+    width:70px;
+    border-radius:15px;
+    text-align: center;
+    transition:background 0.5s ease;
+    cursor:pointer;
+}
+.week-items h1{
+    font-size:18px;
+    letter-spacing:1px;
+    font-weight:lighter;
+
+}
+.week-items p{
+    font-size:13px;
+    letter-spacing:1px;
+
+}
+.week-section .week-items:hover{
+    background:rgba(255, 255, 255, 0.226);
+}
+/*-----------------Main Menu Section------------------*/
+
+.main-menu-section{
+    z-index:9999;
+    position:absolute;
+    left:0;
+    top:150px;
+    height:515px;
+    width:90px;
+    border-top-right-radius:40px;
+    background-color:#6572f5;
+    display:grid;
+    grid-template-rows: 90% 10%;
+}
+.dashboard-logo-contents{
+    width:100%;
+    padding-top:30px;
+}
+.unordered-list-items,.dashboard-settings{
+    padding:0px 0px 0px 20px;
+}
+.dashboard-main-logo{
+    display:block;
+    width:100%;
+    text-decoration: none;
+    list-style: none;   
+    margin:0px 0px 50px 0px; 
+}
+.dashboard-main-logo-settings{
+    display:block;
+    width:100%;
+    text-decoration: none;
+    list-style: none;   
+}
+
+.list-item{
+    color:white;
+}
+
+/*--------------------Home section--------------------*/
+.home{
+    position:relative;
+    width:100%;
+    max-width:70%;
+    margin:0px auto;
+}
+.home-section{
+    position:absolute;
+    top:70px;
+}
+.home-section-1{
+    display:flex;
+    width:800px;
+    justify-content: space-between;
+}
+.home-sec-item-1{
+    text-align:center;
+    width:180px;
+    border-radius:25px;
+    height:150px;
+    cursor:pointer;
+}
+.home-sec-item-1 h1{
+    font-size:68px;
+    margin:20px 0px 0px 0px;
+    color:white;
+}
+.home-sec-item-1 p{
+    font-size:20px;
+    color:white;
+    margin:10px 0px 0px 0px;
+}
+.home-section-2.active{
+    margin-top:40px;
+}
+.home-sec-2-item-1{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.home-sec-2-item-1 h1{
+    letter-spacing:1px;
+}
+.home-sec-viewall-sec h1{
+    font-size:17px;
+    font-weight: lighter;
+    padding:5px 8px;
+    background:rgba(150, 138, 138, 0.274);
+    border-radius:3px;
+    cursor:pointer;
+}
+
+.compilance-small-item-sec{
+    display:flex;
+    background:#eff4fa;
+    padding:4px 10px 0px 10px;
+    align-items: center;
+    border-radius:5px;
+    margin:20px 0px;
+}
+.comp-more-push{
+    margin-left:auto;
+}
+.comp-text h1{
+    
+    margin:0px;
+    font-size:19px;
+    font-weight:lighter;
+    letter-spacing:1px;
+    margin-left:10px;
+}
+.compilance-container-small{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.comp-more-items-logo{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------Section-2------------------*/
+.section-2{
+    padding:3px 5px;
+}
+.admin-section{
+    display:flex;
+    justify-content: space-between;
+}
+.admin-image{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:rgba(0, 0, 0, 0.432);
+    margin:0px 10px 0px 0px;
+    cursor:pointer;
+}
+.admin-sec-info{
+    display:flex;
+}
+.admin-sec-info h1{
+    margin:0px;
+    font-size:13px;
+    letter-spacing:1px;
+    margin:8px 0px 0px 0px;
+    
+}
+.admin-sec-info p{
+    margin:5px 0px 0px 0px;
+    font-size:14px;
+    display:flex;
+    cursor:pointer;
+}
+.admin-images-item-1{
+    color:#383f8ac5;
+    margin:15px 5px 0px 13px;
+    cursor:pointer;
+}
+.admin-drop-down{
+    margin-top:-4px;
+}
+.pie-chart-section{
+    margin:20px 0px 0px -10px;
+}
+
+/*-------people-section-------*/
+.people-tags-section,.today-compilance-section{
+    margin:15px 0px 0px 0px;
+}
+.people-tags-items-1,.today-tags-items-1{
+    display:flex;
+    justify-content: space-between;
+}
+.people-tags-items-1 h1,.today-tags-items-1 h1{
+    letter-spacing: 1px;
+    margin:0px;
+}
+.people-tags-items-1 p,.today-tags-items-1 p{
+    margin:0px;
+    letter-spacing: 1px;
+    font-size:15px;
+    padding:5px;
+    border-radius:3px;
+    background:rgba(150, 138, 138, 0.274);
+    cursor:pointer;
+}
+.people-tags-items-2,.today-tags-items-2{
+    display:flex;
+    margin:30px 0px 0px 0px;
+    position:relative;
+}
+.people-tags-image-1{
+    background:rgba(0, 0, 0, 0.699);
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.people-img-2{
+    background:rgb(122, 120, 120);
+    position:absolute;
+    left:20px;
+    z-index:1;
+}
+.people-img-3{
+    background:rgb(196, 193, 193);
+    position:absolute;
+    left:45px;
+    z-index:2;
+}
+.people-img-3 p{
+    color:rgb(65, 61, 61);
+    letter-spacing:1px;
+    padding-left:12px;
+    font-weight:600;
+}
+.today-tags-items-2{
+    display:block;
+}
