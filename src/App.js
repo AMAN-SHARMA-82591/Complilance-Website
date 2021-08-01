@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react'
 import './App.css';
 import Section_1 from './Section-1/Section-1';
