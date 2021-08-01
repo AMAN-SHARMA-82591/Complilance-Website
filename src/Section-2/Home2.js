@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react'
 import Compilance_items from '../Section-1/Compilance-items';
 import '../App.css'

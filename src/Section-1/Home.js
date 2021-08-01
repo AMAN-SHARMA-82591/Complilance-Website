@@ -1,30 +1,38 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from 'react'
 import Compilance_items from './Compilance-items'
-import Overdue from './Overdue'
-
-
+import {NavLink} from 'react-router-dom'
+import "../App.css"
 function Home() {
     return (
         <div className="home">
                 <div className="home-section">
                         <div className="home-section-1">
-                            <div style={{background:"#e9523f"}} className="home-sec-item-1">
-                                    <h1>8</h1>
-                                    <p>Overdue</p>
-                            </div>
-                            <div style={{background:"#6773fd"}} className="home-sec-item-1">
-                                    <h1>5</h1>
-                                    <p>Upcoming</p>
-                            </div>
-                            <div style={{background:"#f8b84a"}} className="home-sec-item-1">
-                                    <h1>10</h1>
-                                    <p>In Progress</p>
-                            </div>
-                            <div style={{background:"#1da193"}} className="home-sec-item-1">
-                                    <h1>15</h1>
-                                    <p>Total</p>
-                            </div>
+                           <NavLink className="overdue-items-section" to="/overdue">
+                                <div style={{background:"#e9523f"}} className="home-sec-item-1">
+                                        <h1>8</h1>
+                                        <p>Overdue</p>
+                                </div>
+                            </NavLink>
+                            <NavLink className="overdue-items-section" to="/upcoming">
+                                        <div style={{background:"#6773fd"}} className="home-sec-item-1">
+                                                <h1>5</h1>
+                                                <p>Upcoming</p>
+                                        </div>
+                            </NavLink>
+                           <NavLink className="overdue-items-section" to="/inprogress">
+                                        <div style={{background:"#f8b84a"}} className="home-sec-item-1">
+                                                <h1>10</h1>
+                                                <p>In Progress</p>
+                                        </div>
+                           </NavLink>
+                           <NavLink className="overdue-items-section" to="/total">
+                                        <div style={{background:"#1da193"}} className="home-sec-item-1">
+                                                <h1>15</h1>
+                                                <p>Total</p>
+                                        </div>
+                           </NavLink>
+                          
 
                         </div>
                         <div className="home-section-2 active">

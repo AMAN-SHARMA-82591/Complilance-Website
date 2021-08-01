@@ -6,9 +6,8 @@
     height:660px;
 }
 /*------------------------Section-1------------------------*/
-
-.section-1{
-
+.overdue-items-section{
+    text-decoration: none;
 }
 .week-table-container-items{
     margin:0px auto;

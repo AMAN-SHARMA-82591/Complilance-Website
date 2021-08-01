@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Overdue() {
+function Total() {
     return (
         <div>
-             Hello
+            
         </div>
     )
 }
 
-export default Overdue
+export default Total

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Overdue() {
+function InProgress() {
     return (
         <div>
-             Hello
+            
         </div>
     )
 }
 
-export default Overdue
+export default InProgress
