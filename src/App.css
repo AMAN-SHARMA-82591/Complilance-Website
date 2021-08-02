@@ -387,3 +387,44 @@
     height:55px;
     border:2px solid #6572f5;
 }
+
+
+/*------------Overdue Table Section--------------*/
+.overdue-table-section{
+    margin-top:50px;
+}
+.overdue-table-cont{
+    width:100%;
+    border-collapse: collapse;
+    border-spacing:0;
+    text-align: center;
+    color:#2c39c4d8;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.overdue-table-cont tr{
+    border-bottom:2px solid #6571f581;
+}
+.overdue-table-cont tr th{
+    background:#8089e41f;
+    color:#6572f5;
+    padding:20px;
+}
+
+.overdue-table-cont tr th:first-child,.overdue-table-items-cont tr td:first-child{
+    width:500px;
+}
+.overdue-table-cont tr th:nth-child(2),.overdue-table-items-cont tr td:nth-child(2){
+    width:200px;
+}
+.overdue-table-cont-items td{
+    padding:10px;
+    background-color:#8089e41f;
+}
+.table-data-cont-1{
+    display:flex;
+    justify-content: center;
+}
+.table-data-cont-1 p{
+    margin:10px 0px 0px 5px;
+}
