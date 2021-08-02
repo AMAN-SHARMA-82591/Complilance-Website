@@ -310,7 +310,16 @@
 .pie-chart-section{
     margin:20px 0px 0px -10px;
 }
-
+.admin-drop-down-menu{
+    display :none;
+    width:300px;
+    position:absolute;
+    top:50px;
+    right:30px;
+    height:100px;
+    z-index:8999;
+    background:black;
+}
 /*-------people-section-------*/
 .people-tags-section,.today-compilance-section{
     margin:15px 0px 0px 0px;
