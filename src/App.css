@@ -265,6 +265,7 @@
 .admin-section{
     display:flex;
     justify-content: space-between;
+    position:relative;
 }
 .admin-image{
     width:50px;
