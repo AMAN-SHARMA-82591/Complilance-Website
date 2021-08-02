@@ -3,34 +3,23 @@ import React from 'react'
 import Compilance_items from './Compilance-items'
 import {NavLink} from 'react-router-dom'
 import "../App.css"
+import OverdueBoxComponent from './OverdueBoxComponent'
 function Home() {
     return (
         <div className="home">
                 <div className="home-section">
                         <div className="home-section-1">
                            <NavLink className="overdue-items-section" to="/overdue">
-                                <div style={{background:"#e9523f"}} className="home-sec-item-1">
-                                        <h1>8</h1>
-                                        <p>Overdue</p>
-                                </div>
+                                <OverdueBoxComponent background="rgb(233, 82, 63)" h1="8" title="Overdue" width="180px"/>
                             </NavLink>
                             <NavLink className="overdue-items-section" to="/upcoming">
-                                        <div style={{background:"#6773fd"}} className="home-sec-item-1">
-                                                <h1>5</h1>
-                                                <p>Upcoming</p>
-                                        </div>
+                                        <OverdueBoxComponent background="#6773fd" h1="5" title="Upcoming" width="180px"/>
                             </NavLink>
                            <NavLink className="overdue-items-section" to="/inprogress">
-                                        <div style={{background:"#f8b84a"}} className="home-sec-item-1">
-                                                <h1>10</h1>
-                                                <p>In Progress</p>
-                                        </div>
+                                        <OverdueBoxComponent background="#f8b84a" h1="10" title="In Progress"  width="180px" />
                            </NavLink>
                            <NavLink className="overdue-items-section" to="/total">
-                                        <div style={{background:"#1da193"}} className="home-sec-item-1">
-                                                <h1>15</h1>
-                                                <p>Total</p>
-                                        </div>
+                                        <OverdueBoxComponent background="#1da193" h1="15" title="Total"  width="180px"/>
                            </NavLink>
                           
 
