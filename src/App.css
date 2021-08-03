@@ -310,16 +310,97 @@
 .pie-chart-section{
     margin:20px 0px 0px -10px;
 }
+
+/*------------admin-drop-down-menu----------------*/
 .admin-drop-down-menu{
     display :none;
-    width:300px;
+    width:350px;
     position:absolute;
-    top:50px;
+    top:60px;
     right:30px;
-    height:100px;
+    height:200px;
     z-index:8999;
-    background:black;
+    box-shadow:1px 1px 5px 1px grey;
+    border-radius:8px;
+    background:white;
+    border:2px solid grey;
 }
+.admin-drop-down-menu::after{
+    content: '';
+    z-index:8899;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:-8px;
+    right:10px;
+    border-top: 2px solid grey;
+    background:white;
+    border-left:2px solid grey;
+    transform: rotate(45deg);
+}
+.drop-down-menu-admin-items{
+    display:flex;
+    justify-content:space-between;
+    padding:5px;
+}
+.drop-down-sec-logo-cont1{
+    width:40px;
+    height:40px;
+    background:grey;
+    border-radius:50%;
+    margin:2px 0px 0px 2px;
+}
+.drop-down-sec-logo-cont2 p{
+    font-size:10px;
+    font-weight:bold;
+    color:#111975;
+    margin:0px;
+}
+.drop-down-sec-logo-cont2{
+    margin:6px auto 0px 5px;
+}
+.drop-down-sec-logo-cont2 h1{
+    font-size:12px;
+    letter-spacing:1px;
+    margin:0px;
+    font-weight:800;
+    color:#151b55d7;
+}
+.drop-down-sec-help-cont3{
+    z-index:9999;
+    display:flex;
+}
+.drop-down-sec-help-cont3 p{
+    font-weight:bold;
+}
+.drop-down-menu-admin-text-items p{
+    font-size:23px;
+    margin:15px 0px 0px 20px;
+    color:rgb(51, 47, 47);
+}
+.drop-down-menu-admin-button-items{
+    width:45%;
+    margin:15px auto 10px auto;
+}
+.drop-down-menu-admin-button-items button{
+    padding:5px 15px;
+    font-weight: bold;
+    background:none;
+    border:2px solid grey;
+    border-radius:6px;
+}
+.drop-down-menu-admin-add-comp-items{
+    display:flex;
+    border-top:2px solid grey;
+    padding:10px 0px 0px 20px;
+}
+.drop-down-menu-admin-add-comp-items p{
+    margin:3px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+
 /*-------people-section-------*/
 .people-tags-section,.today-compilance-section{
     margin:15px 0px 0px 0px;
