@@ -34,8 +34,8 @@ function LogInAdmin() {
                                 <div class="admin-sec-info">
                                     <div className="admin-image"></div>
                                     <div>
-                                        <h1 className="admin-name">Vicky Kaushal</h1>
-                                        <p>Admin <ArrowDropDownIcon onClick={() => setShow(!show)}  className="admin-drop-down" />   </p>
+                                        <h1  className="admin-name">Vicky Kaushal</h1>
+                                        <p>Admin <ArrowDropDownIcon style={{fontSize:'30px'}}  onClick={() => setShow(!show)}  className="admin-drop-down" />   </p>
                                         {
                                             show? <LoginAdminDropDownMenu /> :null
                                         }

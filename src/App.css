@@ -94,9 +94,10 @@
     z-index:9999;
     position:absolute;
     left:0;
-    top:150px;
-    height:515px;
-    width:90px;
+    bottom:0px;
+    max-height:80%;
+    height:100%;
+    width:6.5%;
     border-top-right-radius:40px;
     background-color:#6572f5;
     display:grid;
@@ -107,7 +108,7 @@
     padding-top:30px;
 }
 .unordered-list-items,.dashboard-settings{
-    padding:0px 0px 0px 20px;
+    padding:0px;
 }
 .dashboard-main-logo{
     display:block;
@@ -125,6 +126,8 @@
 
 .list-item{
     color:white;
+    display:flex;
+    justify-content: center;
 }
 
 
@@ -392,11 +395,12 @@
     height:50px;
     border-radius:50%;
     background-color:rgba(0, 0, 0, 0.432);
-    margin:0px 10px 0px 0px;
+    margin:1px 5px 0px 0px;
     cursor:pointer;
 }
 .admin-sec-info{
     display:flex;
+    padding-right:5px;
 }
 .admin-sec-info h1{
     margin:0px;
@@ -425,10 +429,14 @@
     background:#6571f51c;
 }
 .admin-drop-down{
-    margin-top:-4px;
+    margin-top:-7px;
+    padding-right:15px;
 }
 .pie-chart-section{
-    margin:20px 0px 0px -10px;
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+
 }
 
 /*------------admin-drop-down-menu----------------*/
@@ -522,7 +530,7 @@
 
 /*-------people-section-------*/
 .people-tags-section,.today-compilance-section{
-    margin:15px 0px 0px 0px;
+    margin:27px 0px 0px 0px;
 }
 .people-tags-items-1,.today-tags-items-1{
     display:flex;
@@ -531,6 +539,7 @@
 .people-tags-items-1 h1,.today-tags-items-1 h1{
     letter-spacing: 1px;
     margin:0px;
+    font-size:22px;
 }
 .people-tags-items-1 p,.today-tags-items-1 p{
     margin:0px;
