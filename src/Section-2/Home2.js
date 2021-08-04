@@ -31,9 +31,9 @@ function Home2() {
                                     <p>View All &gt;</p>
                                 </div>
                                 <div class="today-tags-items-2">
-                                    <Compilance_items className="compilance-small-item" width="300px"/>
-                                    <Compilance_items className="compilance-small-item" width="300px"/>
-                                    <Compilance_items className="compilance-small-item" width="300px"/>
+                                    <Compilance_items  top="-80px" right="50px"  className="compilance-small-item" width="300px"/>
+                                    <Compilance_items  top="-80px" right="50px"  className="compilance-small-item" width="300px"/>
+                                    <Compilance_items  top="-130px" right="50px"  className="compilance-small-item" width="300px"/>
                                 </div>
                         </div>
                 </div>    
