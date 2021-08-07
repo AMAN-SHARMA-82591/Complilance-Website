@@ -648,3 +648,62 @@
 .table-data-cont-1 p{
     margin:10px 0px 0px 5px;
 }
+
+
+/*---------------------Community Section---------------------------------------*/
+
+.community-main-message-section{
+   position:absolute;
+   display:flex;
+   justify-content: space-between;
+   bottom:10px;
+   left:120px;
+   width:60%;
+   height:60px;
+   border-radius:5px;
+   color:white;
+   background:#6572f5;
+   padding:0px 20px;
+   align-items: center;
+}
+.community-image-message{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:white;
+    margin-right:10px;
+}
+.community-text-input{
+    width:70%;
+    height:60%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border:none;
+    outline:none;
+    padding:0px 20px;
+    font-size:17px;
+    letter-spacing:1px;
+
+    margin-right:auto;
+}
+.community-text-message-logo{
+    display:flex;
+    width:181px;
+    height:61%;
+    background:white;
+    color:rgba(128, 128, 128, 0.856);
+    justify-content: space-between;
+    padding-right:10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+    align-items: center;
+}
+.community-text-message-logo>div{
+    padding-top:2px;
+    margin-right:auto;
+    cursor:pointer;
+}
+.com-list-items-logo-message{
+    padding:0px 3px;
+    cursor:pointer;
+}

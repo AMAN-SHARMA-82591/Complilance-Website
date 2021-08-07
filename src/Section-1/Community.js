@@ -1,9 +1,10 @@
 import React from 'react'
+import CommunityMainMessgeSec from './CommunityMainMessageSec'
 
 function Community() {
     return (
         <div>
-        Community Seciton
+                <CommunityMainMessgeSec />
         </div>
     )
 }
