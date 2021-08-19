@@ -6,11 +6,11 @@ function WeekTable() {
     return (
         <div className="week-table-container">
             <div className="week-table-container-items">
-                <div class="date-section">
+                <div className="date-section">
                     <WatchLaterIcon fontSize="large"  className="date-logo-item" />
                     
                 </div>
-                <div class="week-section">
+                <div className="week-section">
                         <div className="week-items">
                             <h1>Mon</h1>
                             <p>9</p>

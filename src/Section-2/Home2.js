@@ -25,12 +25,12 @@ function Home2() {
                                         </div>
                                 </div>
                         </div>
-                        <div class="today-compilance-section">
+                        <div className="today-compilance-section">
                                 <div className="today-tags-items-1">
                                     <h1>Today</h1>
                                     <p>View All &gt;</p>
                                 </div>
-                                <div class="today-tags-items-2">
+                                <div className="today-tags-items-2">
                                     <Compilance_items  top="-80px" right="50px"  className="compilance-small-item" width="91%"/>
                                     <Compilance_items  top="-80px" right="50px"  className="compilance-small-item" width="91%"/>
                                     <Compilance_items  top="-140px" right="50px"  className="compilance-small-item" width="91%"/>

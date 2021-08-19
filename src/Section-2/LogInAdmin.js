@@ -31,7 +31,7 @@ function LogInAdmin() {
                                           <SettingsIcon  className="admin-images-item-1" />
                                           <AlarmIcon  className="admin-images-item-1" />
                                 </div>
-                                <div class="admin-sec-info">
+                                <div className="admin-sec-info">
                                     <div className="admin-image"></div>
                                     <div>
                                         <h1  className="admin-name">Vicky Kaushal</h1>

@@ -31,7 +31,7 @@ function Home() {
                                     <h1>View All &gt;</h1>
                                 </div>
                             </div>
-                            <div class="compilance-container-small">
+                            <div className="compilance-container-small">
                                     <Compilance_items top="-50px" right="-320px" className="compilance-small-item" width="45%"/>
                                     <Compilance_items top="-50px" right="-320px" className="compilance-small-item"  width="45%"/>
                                     <Compilance_items top="-70px" right="-320px" className="compilance-small-item" width="45%"/>
