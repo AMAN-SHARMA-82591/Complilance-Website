@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom';
 function MainMenu() {
     return (
         <div className="main-menu-section">
-                <div class="dashboard-logo-contents">
+                <div className="dashboard-logo-contents">
                        <ul className="unordered-list-items">
                             <li className="dashboard-main-logo">
                                     <NavLink className="list-item" to="/"><HouseIcon fontSize="large" /></NavLink>
@@ -27,7 +27,7 @@ function MainMenu() {
                       
 
                 </div>
-                <div class="dashboard-settings">
+                <div className="dashboard-settings">
                             <li className="dashboard-main-logo-settings">
                                     <NavLink className="list-item" to="/settings"><SettingsIcon fontSize="large" /></NavLink>
                             </li>

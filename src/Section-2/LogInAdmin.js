@@ -11,12 +11,12 @@ function LogInAdmin() {
     const [show,setShow] = useState(false);
     
     let menuRef = useRef(null);
-    
     useEffect(() => {
         let handler = (event)=>{
             if(!menuRef.current.contains(event.target)){
                 setShow(false)
             }
+            // console.log(event.target)
         }
         document.addEventListener('mousedown',handler);
         return () =>{
@@ -25,8 +25,8 @@ function LogInAdmin() {
     });
     return (
         <div>
-            <div ref={menuRef} class="admin-section">
-                                <div class="admin-sec-logo">
+            <div ref={menuRef} className="admin-section">
+                                <div className="admin-sec-logo">
                                           <EmailIcon className="admin-images-item-1"/>
                                           <SettingsIcon  className="admin-images-item-1" />
                                           <AlarmIcon  className="admin-images-item-1" />

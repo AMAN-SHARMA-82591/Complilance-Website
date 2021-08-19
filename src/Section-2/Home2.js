@@ -8,11 +8,11 @@ function Home2() {
     return (
         <div>
             <div className="section-2-container">
-                        <div class="pie-chart-section">
+                        <div className="pie-chart-section">
                            <Donut className="donut-pie-chart"/>
 
                         </div>
-                        <div class="people-tags-section">
+                        <div className="people-tags-section">
                                 <div className="people-tags-items-1">
                                     <h1>People</h1>
                                     <p>View All &gt;</p>
@@ -26,7 +26,7 @@ function Home2() {
                                 </div>
                         </div>
                         <div class="today-compilance-section">
-                                <div class="today-tags-items-1">
+                                <div className="today-tags-items-1">
                                     <h1>Today</h1>
                                     <p>View All &gt;</p>
                                 </div>
