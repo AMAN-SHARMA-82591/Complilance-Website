@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/main.e00493bf.chunk.css",
-    "main.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/main.83aa7caa.chunk.js",
-    "main.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/main.83aa7caa.chunk.js.map",
-    "runtime-main.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/runtime-main.5b13d877.js",
-    "runtime-main.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/runtime-main.5b13d877.js.map",
+    "main.css": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/main.14626c20.chunk.css",
+    "main.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/main.81286448.chunk.js",
+    "main.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/main.81286448.chunk.js.map",
+    "runtime-main.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/runtime-main.0629a4a4.js",
+    "runtime-main.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/runtime-main.0629a4a4.js.map",
     "static/css/2.8363f5b3.chunk.css": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/2.8363f5b3.chunk.css",
-    "static/js/2.267fa070.chunk.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.267fa070.chunk.js",
-    "static/js/2.267fa070.chunk.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.267fa070.chunk.js.map",
-    "static/js/3.52e560bf.chunk.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/3.52e560bf.chunk.js",
-    "static/js/3.52e560bf.chunk.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/3.52e560bf.chunk.js.map",
+    "static/js/2.e2f04915.chunk.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.e2f04915.chunk.js",
+    "static/js/2.e2f04915.chunk.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.e2f04915.chunk.js.map",
+    "static/js/3.1bd6952f.chunk.js": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/3.1bd6952f.chunk.js",
+    "static/js/3.1bd6952f.chunk.js.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/3.1bd6952f.chunk.js.map",
     "index.html": "/AMAN-SHARMA-82591/Complilance-Website.git/index.html",
     "static/css/2.8363f5b3.chunk.css.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/2.8363f5b3.chunk.css.map",
-    "static/css/main.e00493bf.chunk.css.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/main.e00493bf.chunk.css.map",
-    "static/js/2.267fa070.chunk.js.LICENSE.txt": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.267fa070.chunk.js.LICENSE.txt",
+    "static/css/main.14626c20.chunk.css.map": "/AMAN-SHARMA-82591/Complilance-Website.git/static/css/main.14626c20.chunk.css.map",
+    "static/js/2.e2f04915.chunk.js.LICENSE.txt": "/AMAN-SHARMA-82591/Complilance-Website.git/static/js/2.e2f04915.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/AMAN-SHARMA-82591/Complilance-Website.git/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b13d877.js",
+    "static/js/runtime-main.0629a4a4.js",
     "static/css/2.8363f5b3.chunk.css",
-    "static/js/2.267fa070.chunk.js",
-    "static/css/main.e00493bf.chunk.css",
-    "static/js/main.83aa7caa.chunk.js"
+    "static/js/2.e2f04915.chunk.js",
+    "static/css/main.14626c20.chunk.css",
+    "static/js/main.81286448.chunk.js"
   ]
 }
