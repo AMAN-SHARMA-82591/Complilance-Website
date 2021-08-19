@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import MicIcon from '@material-ui/icons/Mic';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
 import SpellcheckIcon from '@material-ui/icons/Spellcheck';
